@@ -1,12 +1,20 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from './component/Header';
+import Second from './component/Second';
+import Card from './component/Card';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header/>
+    <Second/>
+    <Card/>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );
